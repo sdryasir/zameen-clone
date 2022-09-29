@@ -1,5 +1,6 @@
 /* 
 #33a137 - green
+#f7f7f7 - light grey (primaryNav)
 #1f1f1f - 
 #cccccc
 #e2e2e2
@@ -7,6 +8,7 @@
 
 body{
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .header .top-nav-strip{
@@ -29,6 +31,14 @@ body{
    text-decoration: none;
    color: #ffffff;
    text-transform: uppercase;
+   font-weight: 800;
+}
+.new-item{
+   background-color: #f00;
+   color: #fff;
+   padding: 3px;
+   border-radius: 12px;
+   font-size: 10px;
 }
 .header .top-nav-strip ul li a img{
    width: 20px;
@@ -54,3 +64,31 @@ body{
     outline: none;
 }
 
+
+.top-primary-nav{
+   background-color: #f7f7f7;
+   padding: 6px 24px;
+}
+.top-primary-nav ul{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+}
+.top-primary-nav ul li{
+   list-style-type: none;
+   margin: 0 8px;
+}
+.top-primary-nav ul li a{
+   text-decoration: none;
+   color: #848484;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+.top-primary-nav ul li a img{
+   width: 150px;
+}
+
+.main .search-area img{
+   width: 100%;
+}
