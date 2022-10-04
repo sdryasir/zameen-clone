@@ -139,6 +139,7 @@ body{
    width: 600px;
    padding: 24px;
    display: flex;
+   padding-bottom: 9px
 }
 .search-area-body .form-input{
    width: 25%;
@@ -148,3 +149,50 @@ body{
    height: 40px;
    margin: 0 12px;
 }
+.search-area-links{
+   display: flex;
+   justify-content: left;
+   background-color: #000;
+}
+.search-area-links ul{
+   padding-bottom: 12px;
+   padding-left: 24px;
+}
+.search-area-links ul li{
+   margin: 0 12px;
+}
+.search-area-links ul li:first-child{
+   margin-left: 0;
+}
+.search-area-links ul li a{
+   color: #0792ea;
+}
+.popular-cities-widget{
+   height: 300px;
+   width: 200px;
+   background-color: #fff;
+   position: absolute;
+   top: 50%;
+   right: 40px;
+   transform: translateY(-50%);
+   overflow: hidden;
+   overflow-y: scroll;
+}
+.popular-cities-widget h4{
+   text-align: center;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 24px;
+}
+.popular-cities-widget ul{
+   margin: 0;
+   padding: 24px;
+}
+.popular-cities-widget ul li{
+   list-style-type: none;
+   margin: 12px 0;
+}
+.popular-cities-widget ul li a{
+   
+}
+
