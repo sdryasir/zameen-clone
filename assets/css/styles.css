@@ -196,3 +196,74 @@ body{
    
 }
 
+
+
+
+
+.explore-wrap .explore-crads-wrap{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.explore-wrap .explore-crads-wrap .explore-card{
+   display: flex;
+   width: 22%;
+   margin: 12px;
+}
+
+.explore-wrap .explore-crads-wrap .explore-card .card-img{
+   background-color: #fdf8ee;
+   padding: 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 16px;
+}
+
+.explore-wrap .explore-crads-wrap .explore-card .card-img img{
+   width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////Generic Classes////////////////////*/
+
+.sec-space{
+
+}
+
+.container{
+   width: 1140px;
+   margin: 0 auto;
+}
+.m-0{
+   margin: 0;
+}
+.p-6{
+   padding: 6px;
+}
+.p-12{
+   padding: 12px;
+}
+
+.m-6{
+   margin: 6px;
+}
+
+
+
+
+
